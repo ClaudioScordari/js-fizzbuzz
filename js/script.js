@@ -16,10 +16,15 @@
     1. Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
     2. Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
+
+    BONUS 1:
+    Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
+
+
 */
 //--------------------------------------------//
 
-// Programma che stampa in console da 1 a 10 
+// Programma che stampa in console da 1 a 100 
 
 for (let index = 0; index < 100; index++) {
     let number = index + 1;
@@ -44,5 +49,21 @@ for (let index = 0; index < 100; index++) {
 
     // ALTRIMENTI stampo tutto i numeri 'liberi'...
     else console.log(number);
+
+
+    // PROVARE A FARE IL BONUS 1 - FATTO
+
+    // Devo selezionare il mio container DOM
+    const myContainer = document.querySelector('.my-container');
+
+    // Devo creare il mio elemento nel DOM
+    const my_div = document.createElement('div');
+
+    // Adesso devo usare append per metterlo dentro il mio container DOM
+    myContainer.append(my_div);
+
+    // Adesso devo mettere la variabile number nel mio container
+    my_div.append(number);
+
 }
 
