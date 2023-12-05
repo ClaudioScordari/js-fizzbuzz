@@ -65,5 +65,19 @@ for (let index = 0; index < 100; index++) {
     // Adesso devo mettere la variabile number nel mio container
     my_div.append(number);
 
+
+
+    /*
+    
+        PROVIAMO A FARE IL BONUS 2...
+
+        BONUS 2:
+        Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
+        Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+
+        - Dobbiamo assegnare dello stile diverso sia per i numeri, Fizz, Buzz e FizzBuzz
+
+    */
+
 }
 
