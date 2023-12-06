@@ -48,7 +48,9 @@ for (let index = 0; index < 100; index++) {
     }
 
     // ALTRIMENTI stampo tutto i numeri 'liberi'...
-    else console.log(number);
+    else {
+        console.log(number);
+    }
 
 
     // PROVARE A FARE IL BONUS 1 - FATTO
